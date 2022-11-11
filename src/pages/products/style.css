@@ -1,0 +1,12 @@
+.card {
+    width: 444px;
+  }
+  
+  body {
+    margin-top: 2%;
+    background: #eee;
+  }
+
+  .po{
+    cursor: pointer;
+  }
