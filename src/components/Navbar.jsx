@@ -16,7 +16,6 @@ const Navbar = () => {
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                     <li class="nav-item"><a class="navbar-brand fw-bold" href="#page-top" onClick={click => page('')}><i class="bi bi-house-door-fill"></i></a></li>
                         <li class="nav-item"><a class="navbar-brand fw-bold" href="#page-top" onClick={click => (alert('Fire Offerts'))}><i class="bi bi-fire"></i></a></li>
-                        <li class="nav-item"><a class="navbar-brand fw-bold" href="#page-top" onClick={click =>page("productos") }><i class="bi bi-lightning-charge-fill"></i></a></li>
                     </ul>
                     <CartWidget/>
                 </div>

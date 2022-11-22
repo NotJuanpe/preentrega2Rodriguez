@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import ButtonGroup from '../../layouts/ButtonGroup';
-import ItemListContainer from '../../layouts/ItemListContainer'
+import ButtonGroup from '../ButtonGroup';
+import ItemListContainer from '../ItemListContainer'
 import "./style.css"
 
 

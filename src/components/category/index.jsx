@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams, useNavigate } from 'react-router-dom';
-import ButtonGroup from '../../layouts/ButtonGroup';
-import ItemListContainer from '../../layouts/ItemListContainer';
+import ButtonGroup from '../ButtonGroup';
+import ItemListContainer from '../ItemListContainer';
 
 
 const items = [
@@ -38,7 +38,7 @@ const Category = () => {
     {categoryItems.map(item => 
       <div class="d-flex justify-content-center container mt-5">
       <div class="card p-3 bg-white"><i class="fa fa-apple"></i>
-          <div class="about-product text-center mt-2"><img src={item.image} width="300"/>
+          <div class="about-product text-center mt-2"><img src={item.image} width="300" alt={item.name}/>
               <div>
                   <h4>#{item.id}</h4>
                   <h6 class="mt-0 text-black-50">{item.name}</h6>

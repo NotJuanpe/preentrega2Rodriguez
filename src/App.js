@@ -1,10 +1,10 @@
 import { Route,Routes} from 'react-router-dom';
 import './App.css';
-import Home from './pages/home/index'
-import Detail from './pages/detail/index'
-import Navbar from './layouts/Navbar';
-import Products from './pages/products/index'
-import Category from './pages/category';
+import Home from './components/home/index'
+import Detail from './components/detail/index'
+import Navbar from './components/Navbar';
+import Products from './components/home/index'
+import Category from './components/category';
 
 
 function App() {

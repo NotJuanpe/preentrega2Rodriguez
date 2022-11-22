@@ -20,7 +20,7 @@ const Index = () => {
     <>
 <div class="wrapper">
     <div class="product-img">
-      <img src={items[parseInt(params.id)].image} height="420" width="327"/>
+      <img src={items[parseInt(params.id)].image}  alt={items[parseInt(params.id)].name} height="420" width="327"/>
     </div>
     <div class="product-info">
       <div class="product-text">
